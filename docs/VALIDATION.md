@@ -27,7 +27,7 @@ The two-minute default was verified in firmware state; the automated timeout reg
 - A separate firmware compilation checks the reorganized source/library layout; application/display logic matches the device-validated sources, with Git normalizing text line endings. Public binaries use path-remapping compiler flags; they have new checksums and are not claimed to be the identical original flashed artifact.
 - CI runs account-independent tests, CLI import/help and image checksum validation on Windows/Linux with Python 3.10/3.12. CI has no account credentials or hardware.
 
-The polished mockup in README uses invented values and is not evidence of a new physical measurement.
+README includes a user-supplied photograph of the monitor running on a physical D1. Its quota values reflect the photo time. The earlier software illustration remains at `docs/images/display.svg` and uses invented values; neither image extends the test coverage listed above.
 
 ## Not validated
 

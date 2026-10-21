@@ -4,9 +4,9 @@ A quiet desk display for your AI quota. Built for the **Seeed SenseCAP Indicator
 
 [中文说明](README.zh-CN.md) · [Build from source](docs/BUILD.md) · [Troubleshooting](docs/TROUBLESHOOTING.md) · [MIT license](LICENSE)
 
-<img src="docs/images/display.svg" alt="Illustrative D1 quota display: five-hour allowance, reset time, weekly quota and refresh control" width="440">
+<img src="docs/images/d1-ai-quota-photo.png" alt="SenseCAP Indicator D1 running the AI quota monitor on a desk, showing Codex quota, reset time and weekly allowance" width="640">
 
-*Software-rendered illustration with invented values; not a live account screenshot.*
+*Running on a physical SenseCAP Indicator D1. Values reflect the moment the photo was taken.*
 
 ## What it does
 

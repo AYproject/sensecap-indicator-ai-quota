@@ -4,9 +4,9 @@
 
 [English](README.md) · [源码编译](docs/BUILD.md) · [故障排查](docs/TROUBLESHOOTING.md) · [MIT 开源协议](LICENSE)
 
-<img src="docs/images/display.svg" alt="AI 额度屏示意图" width="440">
+<img src="docs/images/d1-ai-quota-photo.png" alt="SenseCAP Indicator D1 实机运行 AI 额度监控，显示 Codex 剩余额度、重置倒计时和每周额度" width="640">
 
-*图中为示意数值，不是实际账号截图。*
+*SenseCAP Indicator D1 实机照片，额度数值为拍摄时的状态。*
 
 ## 能做什么
 
