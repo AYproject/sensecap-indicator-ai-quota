@@ -1,0 +1,28 @@
+# Local account snapshots, device identity, process state and logs
+private/
+private_backup/
+*_validation.json
+*.log
+*.pid
+.env
+.env.*
+!.env.example
+auth.json
+credentials.json
+*.pem
+*.key
+# Only the explicitly published firmware directory may contain tracked images.
+*.bin
+!prebuilt/*.bin
+# Python/build artifacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.build-check/
+build/
+dist/
+*.elf
+*.map
+.DS_Store
+Thumbs.db

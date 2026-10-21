@@ -1,0 +1,15 @@
+* text=auto eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.h text eol=lf
+*.cpp text eol=lf
+*.ino text eol=lf
+*.sh text eol=lf
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+*.bin binary
+*.png binary
+# Preserve upstream sources and license text without whitespace-only edits.
+FONT_LICENSE.txt -whitespace
+libraries/** -whitespace
+prebuilt/licenses/** -whitespace

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="586" viewBox="0 0 560 586" role="img" aria-labelledby="title description">
+  <title id="title">SenseCAP Indicator AI quota display</title>
+  <desc id="description">Illustrative graphite glass interface with invented five-hour quota of 64 percent and weekly quota of 82 percent.</desc>
+  <defs>
+    <linearGradient id="backdrop" x2="1" y2="1"><stop stop-color="#101820"/><stop offset="1" stop-color="#17201e"/></linearGradient>
+    <linearGradient id="glass" x2="0.8" y2="1"><stop stop-color="#414951" stop-opacity=".65"/><stop offset="1" stop-color="#242b30" stop-opacity=".82"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="10" stdDeviation="13" flood-opacity=".22"/></filter>
+  </defs>
+  <rect width="560" height="586" rx="36" fill="#ebece8"/>
+  <g transform="translate(40 30)" filter="url(#shadow)">
+    <rect x="-12" y="-12" width="504" height="504" rx="28" fill="#fafaf7"/>
+    <rect width="480" height="480" rx="19" fill="url(#backdrop)"/>
+    <g fill="#eeeae2" font-family="Arial,Helvetica,sans-serif">
+      <text x="28" y="44" font-size="24" font-weight="600">ChatGPT</text>
+      <text x="29" y="66" font-size="13" fill="#a7afb7">Codex usage</text>
+      <rect x="352" y="24" width="108" height="32" rx="16" fill="url(#glass)"/>
+      <text x="406" y="45" text-anchor="middle" font-size="12" fill="#c3cacd">CHATGPT PLAN</text>
+      <rect x="20" y="86" width="440" height="212" rx="30" fill="url(#glass)" stroke="#bfc9cf" stroke-opacity=".07"/>
+      <text x="42" y="121" font-size="14" fill="#a7afb7">5-hour window</text>
+      <text x="438" y="121" text-anchor="end" font-size="13" fill="#a7afb7">01 / 02</text>
+      <text x="242" y="227" text-anchor="middle" font-size="100" font-weight="400">64<tspan dx="7" font-size="28">%</tspan></text>
+      <text x="240" y="252" text-anchor="middle" font-size="14" fill="#a7afb7">remaining</text>
+      <rect x="42" y="275" width="396" height="4" rx="2" fill="#394750"/>
+      <rect x="42" y="275" width="253" height="4" rx="2" fill="#b6ccd0"/>
+      <rect x="20" y="310" width="214" height="120" rx="26" fill="url(#glass)"/>
+      <rect x="246" y="310" width="214" height="120" rx="26" fill="url(#glass)"/>
+      <text x="40" y="342" font-size="14" fill="#a7afb7">Resets in</text>
+      <text x="40" y="384" font-size="32">2h 14m</text>
+      <text x="40" y="411" font-size="13" fill="#a7afb7">5-hour window</text>
+      <text x="266" y="342" font-size="14" fill="#a7afb7">Weekly</text>
+      <text x="266" y="384" font-size="32" fill="#c5d3c9">82%</text>
+      <text x="266" y="411" font-size="13" fill="#a7afb7">Resets in 4d 8h</text>
+      <circle cx="30" cy="454" r="3" fill="#c5d3c9"/>
+      <text x="42" y="459" font-size="13" fill="#a7afb7">Updated just now</text>
+      <rect x="348" y="436" width="108" height="36" rx="18" fill="url(#glass)"/>
+      <path d="M378 449a6 6 0 1 0 1 7M378 445v6h-6" fill="none" stroke="#eeeae2" stroke-width="1.5"/>
+      <text x="389" y="459" font-size="13">Refresh</text>
+    </g>
+  </g>
+  <text x="280" y="555" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#626d6b">Touch to wake. Glance at your quota. Get back to building.</text>
+</svg>
